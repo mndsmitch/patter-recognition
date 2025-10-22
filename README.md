@@ -12,7 +12,7 @@ The application then searches for overlapping occurrences of each factorial's bi
 
 ### Example
 
-With `N = 6` and `X = 100000000000000000`:
+With `N = 6` and `X = 1000000000000`:
 ```json
 {
   "!5": 1,
@@ -53,4 +53,5 @@ x² → binary representation → search for each factorial pattern
 | Goal | N | X |
 |------|---|---|
 | Quick test | 5 | 1000000000 |
-| Multiple matches | 6 | 1000000000 |
+| More than 1 match on the same factorial | 5 | 10000000000 |
+| Multiple matches | 6 | 1000000000000 |
