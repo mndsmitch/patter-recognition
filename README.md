@@ -1,6 +1,6 @@
 # Pattern Finder
 
-A React-based web application that searches for factorial binary patterns within squared numbers. Find occurrences of factorial representations (!5, !6, !7, etc.) hidden in the binary form of large squared integers.
+A React-based web application that searches for factorial binary patterns within squared numbers. Find occurrences of factorial representations (5!, 6!, 7!, etc.) hidden in the binary form of large squared integers.
 
 ## 🎯 What It Does
 
@@ -15,8 +15,8 @@ The application then searches for overlapping occurrences of each factorial's bi
 With `N = 6` and `X = 1000000000000`:
 ```json
 {
-  "!5": 1,
-  "!6": 1
+  "5!": 1,
+  "6!": 1
 }
 ```
 
