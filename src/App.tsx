@@ -58,7 +58,7 @@ function App() {
       const count = countOccurrences(haystack, binary);
 
       if (count > 0) {
-        const key = `!${index + 5}`;
+        const key = `${index + 5}!`;
         patterns[key] = count;
       }
     });
